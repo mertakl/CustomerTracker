@@ -36,9 +36,6 @@ CREATE TABLE `customer` (
 --
 
 LOCK TABLES `customer` WRITE;
-/*!40000 ALTER TABLE `customer` DISABLE KEYS */;
-INSERT INTO `customer` VALUES (6,'Mert','Akel','akelmert@gmail.com'),(7,'Firat','Akel','akelfirat06@gmail.com');
-/*!40000 ALTER TABLE `customer` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
